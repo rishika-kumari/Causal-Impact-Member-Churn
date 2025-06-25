@@ -1,2 +1,2 @@
-# Casual-Impact-Member-Churn
+# Causal-Impact-Member-Churn
 data Science project
