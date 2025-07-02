@@ -1,0 +1,11 @@
+# Core dash app & data stack
+dash>=2.15,<3
+plotly>=5.19,<6         
+pandas>=2.2,<3
+numpy>=1.26,<2
+openpyxl>=3.1            
+statsmodels>=0.14,<0.15  
+scipy<1.11               
+
+# (Optional) maybe needed in case of issues
+scikit-learn>=1.5,<2    
