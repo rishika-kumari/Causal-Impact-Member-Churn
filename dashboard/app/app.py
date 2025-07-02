@@ -7,10 +7,10 @@ import numpy as np
 
 # Data loading with fallback
 try:
-    df = pd.read_excel('matched_sample.xlsx')
-    nn_results = pd.read_excel('nn_prediction_results.xlsx')
-    causal_df = pd.read_excel('causal_results.xlsx')
-    did_df = pd.read_excel('did_results.xlsx')  # Load DiD results
+    df = pd.read_excel('../data/matched_sample.xlsx')
+    nn_results = pd.read_excel('../data/nn_prediction_results.xlsx')
+    causal_df = pd.read_excel('../data/causal_results.xlsx')
+    did_df = pd.read_excel('../data/did_results.xlsx')  # Load DiD results
     
     if 'zeit' not in df.columns and 'quartal' in df.columns and 'jahr' in df.columns:
         df['zeit'] = df['jahr'].astype(str) + 'Q' + df['quartal'].astype(str)
