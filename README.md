@@ -39,7 +39,6 @@ pip install -r requirements.txt
 > `requirements.txt` pins **SciPy < 1.11** to keep it compatible with `statsmodels 0.14.x`.  
 > If you need the newest SciPy, install the dev build of statsmodels instead (see the comment at the bottom of the file).
 
----
 
 ### 3. Add data (optional)
 
@@ -60,6 +59,8 @@ If the files are missing the app falls back to a small synthetic dataset, so you
 python app/app.py
 Then open http://127.0.0.1:8060 in your browser.
 ```
+
+---
 
 ### 📂 Repository structure
 
